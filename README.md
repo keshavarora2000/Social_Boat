@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Social Boat Assignment
+
+Live Site Link - https://social-boat-api.netlify.app/
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
