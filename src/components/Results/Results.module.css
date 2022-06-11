@@ -1,0 +1,8 @@
+.results {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243);
+    width: 100vw;
+    height: calc(100vh - 70px);
+    padding: 2vw 5vw;
+    overflow-y: scroll;
+}

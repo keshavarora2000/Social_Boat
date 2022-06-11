@@ -1,0 +1,52 @@
+.card {
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 2vh 0;
+}
+
+.card_details {
+    padding-left: 5vw;
+    text-align: left;
+    align-items: center;
+}
+
+.card video {
+    height: 18vh;
+    width: 32vh;
+}
+
+.card_details p {
+    width: 50vw;
+}
+
+/* ul {
+    padding-left: 0;
+} */
+
+@media only screen and (max-width: 768px) {
+    .card video {
+        height: 25vw;
+        width: 35vw;
+    }   
+
+    .card_details {
+        padding-left: 10vw;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .card video {
+        height: 30vw;
+        width: 42vw;
+    }   
+    .card_details {
+        padding-left: 5vw;
+        max-width: 40vw;
+    }
+    .card_details p {
+        width: 40vw;
+    }
+}
